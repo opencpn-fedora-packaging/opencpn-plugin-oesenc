@@ -1,4 +1,4 @@
-%global commit 5b6bc712e85130ca1d080780ee9f4816b8f69940
+%global commit 8b11d03dcb5849e74434dc99aa6a390379a29c24
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 %global owner bdbcat
 %global project oesenc_pi
@@ -6,8 +6,8 @@
 
 Name: opencpn-plugin-%{plugin}
 Summary: oeSENC plugin for OpenCPN
-Version: 0.0
-Release: 0.1.%{shortcommit}%{?dist}
+Version: 1.6
+Release: 1.%{shortcommit}%{?dist}
 License: GPLv2+
 
 Source0: https://github.com/%{owner}/%{project}/archive/%{commit}/%{project}-%{shortcommit}.tar.gz
